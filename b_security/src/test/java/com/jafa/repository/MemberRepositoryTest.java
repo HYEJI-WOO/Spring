@@ -28,7 +28,7 @@ public class MemberRepositoryTest {
 	
 	@Test
 	public void test() {
-		MemberVO read = memberRepository.read("leekwanghyup");
+		MemberVO read = memberRepository.read("fefe");
 		log.info(read);
 	}
 
