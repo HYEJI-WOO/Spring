@@ -83,7 +83,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			.passwordParameter("loginPwd") // 비밀번호 name 값, 기본값 : password
 			.failureHandler(authenticationFailureHandler) // 로그인 실패 핸들러
 			.successHandler(authenticationSuccessHandler); // 로그인 성공 핸들러 
-			// /login으로 요청하면 스프링시큐리티가 제공하는 로그인 페이지로 이동
+			// /login으로 요청하면 스프링시큐리티가 제공하는 로그인 페이지로 이동 
         
         http.logout()
         	.invalidateHttpSession(true)
