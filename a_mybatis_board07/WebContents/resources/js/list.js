@@ -10,7 +10,7 @@ $(function(){
 	
 	// 검색
 	$('.searchForm button').on('click', function(){
-		let catrgory = $('.searchForm').find('.category').val()
+		let category = $('.searchForm').find('.category').val()
 		console.log(category)
 		$('.searchForm').attr('action',`${contextPath}/board/list/${category}`)
 	})
